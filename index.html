@@ -1,44 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Red wine index</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      li {
-        list-style: none;
-      }
-      a {
-        text-decoration: none;
-      }
-      .boss{
-        position: relative;
-      }
-      .red-wine {
-        width: 400px;
-        border-radius: 10px;
-      }
-      .img-text {
-        position: absolute;
-        bottom:5px;
-        
-      }
-    </style>
-  </head>
 
-  <body>
-    <div class="boss">
-      <img
-        src="imgs\白金版仙后座梅洛.jpg"
-        alt="白金版仙后座梅洛"
-        class="red-wine img"
-      />
-      <p class="img-text">白金版仙后座梅洛</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Red wine index</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    body {
+      /* background-image: url(imgs/合集2.jpg); */
+
+      background-color: rgb(150, 45, 45);
+    }
+    .wechat{
+      float:right;
+
+    }
+    .left{
+      /* display: inline-block; */
+      float: right;
+      clear: both;
+      padding-bottom: 10px;
+    }
+    #line {
+      /* border: 2px rgb(34, 6, 6) solid; */
+      padding: 5px;
+      clear: both;
+      /* margin-top:3px; */
+      border-top:4px solid rgb(124, 31, 31)
+    }
+    .title-h2{
+      margin-top:30px;
+      margin-left:85px;
+      font-size:50px;
+    }
+    .title-p{
+      margin-left:260px;
+    }
+    .main {
+      position: relative;
+      width: 400px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 20px;
+      margin-top:30px;
+    }
+
+    .red-wine {
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    .img-text {
+      /* display: block; */
+      color: aliceblue;
+      position: absolute;
+      height: 30px;
+      width: 400px;
+      bottom: 5px;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 30px;
+      background-color: rgba(143, 25, 25, 0.336);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="title">
+    <h2 class="title-h2">Magyar bor</h3>
+      <p class="title-p">来自匈牙利红酒</p>
+      <p class="wechat">我的微信^_^</p>
+      <img src="imgs\QQ图片20190809123510.png" alt="我的微信^_^00000000000" class="left">
+  </div>
+  <div id="line">
+    <div class="main">
+      <img src="imgs\托卡伊贵腐酒5篓 (2).JPG" alt="托卡伊贵腐酒5篓" class="red-wine img" />
+      <p class="img-text">托卡伊贵腐酒5篓</p>
     </div>
-  </body>
+    <div class="main">
+      <img src="imgs\托卡伊女人花甜白.JPG" alt="托卡伊女人花甜白" class="red-wine img" />
+      <p class="img-text">托卡伊女人花甜白</p>
+    </div>
+    <div class="main">
+      <img src="imgs\博格纳公牛血混酿.JPG" alt="博格纳公牛血混酿" class="red-wine img" />
+      <p class="img-text">博格纳公牛血混酿</p>
+    </div>
+    <div class="main">
+      <img src="imgs\梅萨罗斯古酿赤霞珠.jpg" alt="梅萨罗斯古酿赤霞珠" class="red-wine img" />
+      <p class="img-text">梅萨罗斯古酿赤霞珠</p>
+    </div>
+                    <div class="main">
+                      <img src="imgs\白金版仙后座梅洛.jpg" alt="白金版仙后座梅洛" class="red-wine img" />
+                      <p class="img-text">白金版仙后座梅洛</p>
+                    </div>
+    <div class="main">
+      <img src="imgs\梅萨罗斯梅洛 (2).JPG" alt="梅萨罗斯梅洛" class="red-wine img" />
+      <p class="img-text">梅萨罗斯梅洛</p>
+    </div>
+    <div class="main">
+      <img src="imgs\托卡伊绍莫罗德尼贵腐甜白葡萄酒 (2).JPG" alt="托卡伊绍莫罗德尼贵腐甜白葡萄酒" class="red-wine img" />
+      <p class="img-text">托卡伊绍莫罗德尼贵腐甜白葡萄酒</p>
+    </div>
+    <div class="main">
+      <img src="imgs\翁德里奥匈帝国梅洛.jpg" alt="翁德里奥匈帝国梅洛" class="red-wine img" />
+      <p class="img-text">翁德里奥匈帝国梅洛</p>
+    </div>
+  </div>
+</body>
+
 </html>
